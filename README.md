@@ -1,5 +1,5 @@
 # UNDER CONSTRUCTION!!! 
-# analog_splinetypes 
+# analog_splinetypes: performance tests...
 spline.c +++ calc the spline coefficients a[] b[] c[] d[] +++ templated from snippet: https://gist.github.com/svdamani/1015c5c4b673c3297309 
 calc_sequence.c +++ calc the cutpoints 
 c2.py +++ ctypes implementation and tests, --such as on performance. 
