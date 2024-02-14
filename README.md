@@ -8,3 +8,6 @@ calc_sequence.c +++ calc the cutpoints
 c2.py +++ ctypes implementation and tests, --such as on performance. 
 save_frame.c +++ save the classified spline with their attributes: 
 a_frame.c +++ metadata attributes from spline: try with https://github.com/J08nY/ecgen
+# little help on theory on metadata:
+https://personalpages.manchester.ac.uk/staff/gabor.megyesi/teaching/math32062/j-inv.pdf
+https://en.wikipedia.org/wiki/Modular_form
