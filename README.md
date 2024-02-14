@@ -11,3 +11,7 @@ a_frame.c +++ metadata attributes from spline: try with https://github.com/J08nY
 # little help on theory on metadata:
 https://personalpages.manchester.ac.uk/staff/gabor.megyesi/teaching/math32062/j-inv.pdf
 https://en.wikipedia.org/wiki/Modular_form
+# Synopsis for ctypes tests:
+(1)cc -std=c99 -shared calc_sequence.c -o calc.so
+(2)cc -std=c99 -shared spline.c -o spline.so
+(3)python3 c2.py
