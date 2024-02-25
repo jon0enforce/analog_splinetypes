@@ -28,6 +28,10 @@ https://personalpages.manchester.ac.uk/staff/gabor.megyesi/teaching/math32062/j-
 ...and groebner basis:
 
 http://www.math.uni-rostock.de/~nesselmann/KommAlgebra/GroebnerBasen.pdf
+
+and what's this?...
+
+https://inria.hal.science/hal-00819337/document
 # Synopsis/Command line:
 cc -std=c99 -shared calc_sequence.c -o calc.so
 
