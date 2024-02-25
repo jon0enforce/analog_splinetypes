@@ -15,11 +15,7 @@ note: try random forest with 3 features (independent variables)
 AI-analog approach: Energy fluctutations sum up...
 
 # analog_splinetypes: performance tests...
-Why analog? Because we want to classify on elliptic metadata. And define a nested structure(tupel):
-
-first: nested structure for overlap-app(8 classes - word overlap=score-of-fitness)
-
-second: nested structure for synthesis-app -- upper bound - lower bound(steady spline-transition), 6 or 8 attributes(test).
+Why analog? Because we want to classify on elliptic metadata, and the piece-wise-polynoms(splines) are free scalable. 
 # comments
 spline.c +++ calc the spline coefficients a[] b[] c[] d[] +++ templated from snippet: https://gist.github.com/svdamani/1015c5c4b673c3297309 
 calc_sequence.c +++ calc the cutpoints 
