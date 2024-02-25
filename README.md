@@ -1,4 +1,4 @@
-# UNDER CONSTRUCTION!!! Next update 25.2. on save_frame.c (datatype)
+# UNDER CONSTRUCTION!!! Next update 28.2. on save_frame.c (datatype)
 synthesis: lagrange on 16 coefficients with pattern-overlapp(free scalable, also for quantum-modulation)
 
 
