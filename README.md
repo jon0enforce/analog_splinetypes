@@ -12,7 +12,7 @@ c*(x3)^2 = b*(x3)
 
 note: try random forest with 3 features (independent variables)
 
-AI-analog approach: Energy fluctutations sum up...(nano/pico-volts<=>32bit/64-bit-AD): A stack of these with same input-line(~zero capacity) for quantum computers?
+AI-analog approach: Energy fluctutations sum up...(nano/pico-volts<=>32bit/64-bit-AD): A stack of these with same input-line(~zero capacity/nanowire?) for quantum computers?
 
 # analog_splinetypes: performance tests...
 Why analog? Because we want to classify on elliptic metadata, and the piece-wise-polynoms(splines) are free scalable. 
