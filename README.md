@@ -8,7 +8,7 @@ AI-digital approach: 3 FEATURES: (x1), (x2), (x3):::
 
 (x2)^3   =  b*(x2)
 
-c*(x3)^2 = b*x3
+c*(x3)^2 = b*(x3)
 
 note: try random forest with 3 features (independent variables)
 
