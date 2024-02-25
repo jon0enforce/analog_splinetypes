@@ -32,6 +32,8 @@ http://www.math.uni-rostock.de/~nesselmann/KommAlgebra/GroebnerBasen.pdf
 and what's this?...
 
 https://inria.hal.science/hal-00819337/document
+
+https://opus4.kobv.de/opus4-zib/frontdoor/index/index/year/1996/docId/247
 # Synopsis/Command line:
 cc -std=c99 -shared calc_sequence.c -o calc.so
 
