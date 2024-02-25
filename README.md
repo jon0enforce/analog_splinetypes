@@ -24,7 +24,10 @@ save_frame.c +++ save the classified spline with their attributes:
 a_frame.c +++ metadata attributes from spline: try with https://github.com/J08nY/ecgen
 # little help on theory on metadata:
 https://personalpages.manchester.ac.uk/staff/gabor.megyesi/teaching/math32062/j-inv.pdf
-https://en.wikipedia.org/wiki/Modular_form
+
+...and groebner basis:
+
+http://www.math.uni-rostock.de/~nesselmann/KommAlgebra/GroebnerBasen.pdf
 # Synopsis/Command line:
 cc -std=c99 -shared calc_sequence.c -o calc.so
 
