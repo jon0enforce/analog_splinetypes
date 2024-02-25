@@ -1,4 +1,19 @@
 # UNDER CONSTRUCTION!!! 
+synthesis: lagrange on 16 coefficients with pattern-overlapp(free scalable, also for quantum-modulation)
+
+
+AI-digital approach: 3 FEATURES: x1, x2, x3:::
+
+x1^3   =  c*x1^2
+
+x2^3   =  b*x2
+
+c*x3^2 = b*x3
+
+note: try random forest with 3 features (independent variables)
+
+AI-analog approach: Energy fluctutations sum up...
+
 # analog_splinetypes: performance tests...
 Why analog? Because we want to classify on elliptic metadata. And define a nested structure(tupel):
 
