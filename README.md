@@ -1,4 +1,5 @@
-# UNDER CONSTRUCTION!!! Next update 28.2. on save_frame.c (datatype)
+# UNDER CONSTRUCTION!!! Further delelopment needs tests on practical nanovolts - fluctuations and ... this takes weeks/month...
+# But a first release for digital AI-interface will be finished soon..
 synthesis: lagrange on 16 coefficients with pattern-overlapp(free scalable, also for quantum-modulation)
 
 
