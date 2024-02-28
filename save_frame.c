@@ -34,8 +34,13 @@ typedef struct patterns{
      int incidence;
 };
 
+
 struct elliptic eclist[m+m];/* max-possible unique */
 struct patterns plist[m*m]; /*max-possible combinations*/
+for (int i=0; i>m*m;i++){
+	plist[i].incidence=0;
+}
+/*TODO: check and load existing curves and patterns and overwrite thus!!! */
 
 
 /* first(tupel) */
@@ -58,6 +63,7 @@ for(int i=0; i < m*m; i++){
     plist[i].first = eclist[i];
     plist[i].second = eclist[m+i];
     plist[i].length = eclist[m+i].cut - eclist[i].offset;
+    /* if (plist[i].incidence == None) plist[i].incidence=0; */
     plist[i].incidence += 1; 
 }
 
