@@ -1,6 +1,7 @@
 # UNDER CONSTRUCTION!!! tests on fluctuation deviations...are necessary to move on..
 # last update on save_frame.c as a template on 28.02.
 synthesis: lagrange on 16 coefficients with pattern-overlapp(free scalable, also for quantum-modulation)
+---look at the print output -- it is a monster ;-)
 
 
 AI-digital approach: 3 FEATURES: (x1), (x2), (x3):::
