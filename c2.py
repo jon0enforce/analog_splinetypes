@@ -76,10 +76,11 @@ X = p0 + p1 + p2 + p3
 point0 = time.time_ns()
 k = 0
 coef = np.ndarray((X.size,), dtype=np.float32)
-px = [1,2,3,4,5,6,7,8]
+px = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 
 print(len(px))
 #just for first:
+first = True
 while len(X) > 0:
     values = calc_seq.calc_sequence(X.ctypes.data_as(POINTER(c_double)), X.size)
     CUT = X[:values]
@@ -141,7 +142,7 @@ while len(X) > 0:
     if len(solution1) > 1:
         solutionC[0] = solution1[1]
     else:
-        solutionC[0] = 0.001
+        solutionC[0] = 0
     solutionC[1] = solution2[1]
     solutionC[2] = solution3[1]
     solutionC[3] = solution4[1]
@@ -151,8 +152,19 @@ while len(X) > 0:
     solutionC[7] = solution8[1]
 
 
-    polyB = np.polyfit(px, solutionB,3,rcond=None,full=False,w=None,cov=False)
-    polyC = np.polyfit(px, solutionC,3,rcond=None,full=False,w=None,cov=False)
+    if first==True:#skip the first curve
+        oldsolutionB = np.array(solutionB)
+        oldsolutionC = np.array(solutionC)	
+        first=False
+        continue
+        
+        
+    solutionPATTERNB = np.concatenate((solutionB, oldsolutionB))
+    solutionPATTERNC = np.concatenate((solutionC, oldsolutionC))
+    #print(solutionPATTERNB)
+    
+    polyB = sp.polys.polyfuncs.interpolating_poly(16, x,X='px', Y='solutionPATTERNB')
+    polyC = sp.polys.polyfuncs.interpolating_poly(16, x,X='px', Y='solutionPATTERNC')
     
     #redB = sp.polys.polytools.groebner(polyB,x,order='lex',method='buchberger') 
     #redC = sp.polys.polytools.groebner(polyC,x,order='lex',method='buchberger') 
@@ -163,6 +175,8 @@ while len(X) > 0:
     # lagrange for suitable quantum approach / analog modulation 
     
     k = k+1
+    oldsolutionB = np.array(solutionB)
+    oldsolutionC = np.array(solutionC)
     #+++elliptic normalization and points:c*y^2=d*x^3+b*x+a c[]*normal[]=[-1,-2,-3,-4,-5,-6,-7,-8]+++
     
 file1.close()
@@ -186,4 +200,3 @@ print("one")
 #    print("success!")
 #else{
 #    print("write/read ERROR")}
-
