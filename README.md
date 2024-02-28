@@ -1,5 +1,5 @@
-# UNDER CONSTRUCTION!!! Further delelopment needs tests on practical nanovolts - fluctuations and ... this takes weeks/month...
-# But a first release for digital AI-interface will be finished soon..
+# UNDER CONSTRUCTION!!! tests on fluctuation deviations...are necessary to move on..
+# last update on save_frame.c as a template on 28.02.
 synthesis: lagrange on 16 coefficients with pattern-overlapp(free scalable, also for quantum-modulation)
 
 
@@ -39,5 +39,7 @@ https://opus4.kobv.de/opus4-zib/frontdoor/index/index/year/1996/docId/247
 cc -std=c99 -shared calc_sequence.c -o calc.so
 
 cc -std=c99 -shared spline.c -o spline.so
+
+cc -std=c99 -shared save_frame.c -o save.so
 
 python3 c2.py
