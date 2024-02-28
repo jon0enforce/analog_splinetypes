@@ -30,7 +30,7 @@ typedef struct patterns{
      struct elliptic first; /* first of tuple */ 
      struct elliptic second; /* second of tuple */
      float entropy; /*entropy if -999 = spaceholder/not capable */
-     float length; /* = elliptic[isecond].cut - elliptic[ifirst].offset;  characteristic vertical */ 
+     float length; /* = elliptic[isecond].cut - elliptic[ifirst].offset;  characteristic vertical/amplitiude estimator */ 
      int incidence;
 };
 
