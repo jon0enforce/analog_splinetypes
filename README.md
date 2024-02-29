@@ -4,6 +4,8 @@ synthesis: lagrange on 16 coefficients with pattern-overlapp(free scalable, also
 
 +++look at the print output -- it is a monster ;-)+++
 
++++try to substitude b,c with this monster-terms --- this synthesis could be a suitable approach for quantum-AI, but the quantum-intention is simpler+++
+
 
 AI-digital approach: 3 FEATURES: (x1), (x2), (x3):::
 
