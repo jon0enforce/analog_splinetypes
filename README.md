@@ -4,7 +4,7 @@ synthesis: lagrange on 16 coefficients with pattern-overlapp(free scalable, also
 
 +++look at the print output -- it is a monster ;-)+++
 
-+++try to substitude b,c with this monster-terms --- this synthesis could be a suitable approach for high power tensor prossesing stacks or quantum-AI, but the quantum-intention is simpler: Mainly simple sum-up and.. e.g. error handling with expected ditributions+++
++++try to substitude b,c with this monster-terms --- this synthesis could be a suitable approach for high power tensor processing stacks or quantum-AI, but the quantum-intention is simpler: Mainly simple sum-up and.. e.g. error handling with expected ditributions+++
 
 
 AI-digital approach: 3 FEATURES: (x1), (x2), (x3):::
