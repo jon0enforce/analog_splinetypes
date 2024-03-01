@@ -47,3 +47,7 @@ cc -std=c99 -shared spline.c -o spline.so
 cc -std=c99 -shared save_frame.c -o save.so
 
 python3 c2.py
+
+# Note FPGA
+
+antifuse FPGA's are not hackable and very high-resistant, perfect for military instruments. antifuse means - no bad surprises.
