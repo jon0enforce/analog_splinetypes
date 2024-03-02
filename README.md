@@ -4,7 +4,7 @@ synthesis: lagrange on 16 coefficients with pattern-overlapp(free scalable, also
 
 +++look at the print output -- it is a monster ;-)+++
 
-+++try to substitude b,c with this monster-terms --- this synthesis could be a suitable approach for high power tensor processing stacks or quantum-AI, but the quantum-intention is simpler: Mainly simple sum-up and.. e.g. error handling with expected ditributions+++
+
 
 
 AI-digital approach: 3 FEATURES: (x1), (x2), (x3):::
@@ -14,6 +14,13 @@ AI-digital approach: 3 FEATURES: (x1), (x2), (x3):::
 (x2)^3   =  b*(x2)
 
 c*(x3)^2 = b*(x3)
+
++++Statistical inference of the 8 groups+++
++++classical deep learning is not suitable, such as tensorflow(it is mainly for pictures and there is a lack of research)+++
++++that means, we count on statistical inference on variance, it is more suitable, and we have no imprecision, like on pictures+++
++++deep learning handles such imprecision, it is a compromise/a-half-house to this issue+++
++++and the analog approach is also on statistical inference, after all+++
+
 
 note: try random forest with 3 features (independent variables)
 
