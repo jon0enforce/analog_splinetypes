@@ -17,13 +17,6 @@ c*(x3)^2 = b*(x3)
 
 +++Statistical inference of the 8 groups+++
 
-+++classical deep learning is not suitable, such as tensorflow(it is mainly for pictures and there is a lack of research)+++
-
-+++that means, we count on statistical inference on variance, it is more suitable, and we have no imprecision, like on pictures+++
-
-+++deep learning handles such imprecision, it is a compromise/a-half-house to this issue+++
-
-+++and the analog approach is also on statistical inference, after all+++
 
 
 note: try random forest-classification with 3 features (independent variables), but it is not the best solution!
