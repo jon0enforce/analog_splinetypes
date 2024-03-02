@@ -16,13 +16,17 @@ AI-digital approach: 3 FEATURES: (x1), (x2), (x3):::
 c*(x3)^2 = b*(x3)
 
 +++Statistical inference of the 8 groups+++
+
 +++classical deep learning is not suitable, such as tensorflow(it is mainly for pictures and there is a lack of research)+++
+
 +++that means, we count on statistical inference on variance, it is more suitable, and we have no imprecision, like on pictures+++
+
 +++deep learning handles such imprecision, it is a compromise/a-half-house to this issue+++
+
 +++and the analog approach is also on statistical inference, after all+++
 
 
-note: try random forest with 3 features (independent variables)
+note: try random forest-classification with 3 features (independent variables), but it is not the best solution!
 
 AI-analog approach: Energy fluctutations sum up...(nano/pico-volts<=>32bit/64-bit-AD): A stack of these with same input-line(~zero capacity/superconducting nanowire?) for quantum computers?
 
